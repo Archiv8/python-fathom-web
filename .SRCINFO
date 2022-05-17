@@ -1,0 +1,25 @@
+pkgbase = fathom
+	pkgdesc = A supervised-learning system for recognizing parts of web pages—pop-ups, address forms, slideshows—or for classifying a page as a whole.
+	pkgver = 3.7.1
+	pkgrel = 1
+	url = https://github.com/mozilla/fathom
+	arch = any
+	license = APACHE
+	makedepends = python-setuptools
+	depends = nodejs
+	depends = python-click
+	depends = python-filelock
+	depends = python-more-itertools
+	depends = python-numpy
+	depends = python-pytorch
+	depends = python-scikit-learn
+	depends = python-tensorboardx
+	depends = python-selenium
+	source = https://registry.npmjs.org/fathom-web/-/fathom-web-3.7.1.tgz
+	source = https://files.pythonhosted.org/packages/source/f/fathom-web/fathom-web-3.7.1.tar.gz
+	sha512sums = e244f96346d95c0bba991dc19c3760d8c8b1769d6e7a306c5c24a9940c39a0f1085c87f6e5c1d46c0987c02ee847cfef56ff98f8d9c07aaacb580e898e92995f
+	sha512sums = c66102fb38b379b6c23ce0178e7fb48376a5c9b9e7930adf34764481bc1fdba5733fcc49226c385b7534e564d063b618198c4f3ebdb488b54719d15ff0207b87
+
+pkgname = nodejs-fathom-web
+
+pkgname = python-fathom-web
